@@ -9,7 +9,6 @@ class Pets():
 
 class Cat():
     is_lazy = True
-
     def __init__(self, name, age):
         self.name = name
         self.age = age 
@@ -42,7 +41,3 @@ my_pets = Pets(my_cats)
 
 #4 Output all of the cats walking using the my_pets instance
 my_pets.walk()
-
-myZach = Zach('zach', 12)
-print(myZach.sing('meeeooowwww'))
-print('Are cats lazy?: ', Cat.is_lazy)
